@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:industry_category",
+ "creation": "2023-11-09 15:28:31.948678",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "industry",
+  "industry_category",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "industry",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Industry",
+   "options": "Industry",
+   "reqd": 1
+  },
+  {
+   "fieldname": "industry_category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Industry Category",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Industry Category",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-09 15:31:09.317712",
+ "modified_by": "Administrator",
+ "module": "Unique Addon",
+ "name": "Industry Category",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
