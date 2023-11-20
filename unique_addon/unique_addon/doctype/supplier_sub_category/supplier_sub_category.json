@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:supplier_sub_category_name",
+ "creation": "2023-11-11 11:08:09.359007",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_group",
+  "supplier_category",
+  "supplier_sub_category_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier_group",
+   "fieldtype": "Link",
+   "label": "Supplier Group",
+   "options": "Supplier Group"
+  },
+  {
+   "fieldname": "supplier_category",
+   "fieldtype": "Link",
+   "label": "Supplier Category",
+   "options": "Supplier Category"
+  },
+  {
+   "fieldname": "supplier_sub_category_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Supplier Sub Category Name",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-11 11:08:20.607259",
+ "modified_by": "Administrator",
+ "module": "Unique Addon",
+ "name": "Supplier Sub Category",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
