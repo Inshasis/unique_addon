@@ -227,7 +227,7 @@
    "name": "Item-custom_power",
    "no_copy": 0,
    "non_negative": 0,
-   "options": "\nElectric\nGas \nCoal\nElectric and Gas\nGas and Coal\nElectric Gas and Coal",
+   "options": "\n\nElectric\nGas\nCoal\nElectric and Gas\nGas and Coal\nElectric Gas and Coal",
    "owner": "admin@admin.com",
    "permlevel": 0,
    "precision": "",
