@@ -8,22 +8,16 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "supplier_group",
   "supplier_category",
   "supplier_sub_category_name"
  ],
  "fields": [
   {
-   "fieldname": "supplier_group",
-   "fieldtype": "Link",
-   "label": "Supplier Group",
-   "options": "Supplier Group"
-  },
-  {
    "fieldname": "supplier_category",
    "fieldtype": "Link",
    "label": "Supplier Category",
-   "options": "Supplier Category"
+   "options": "Supplier Category",
+   "reqd": 1
   },
   {
    "fieldname": "supplier_sub_category_name",
@@ -36,7 +30,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-11 11:08:20.607259",
+ "modified": "2023-12-25 14:08:16.571756",
  "modified_by": "Administrator",
  "module": "Unique Addon",
  "name": "Supplier Sub Category",
