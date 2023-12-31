@@ -121,6 +121,16 @@ doctype_js = {
 # ---------------
 # Hook on document methods and events
 
+doc_events = {
+	"Customer": {
+		"validate": "unique_addon.unique_addon.doctype.customer.validate"
+	},
+    "Supplier": {
+		"validate": "unique_addon.unique_addon.doctype.supplier.validate"
+	}
+}
+
+
 # doc_events = {
 #	"*": {
 #		"on_update": "method",
@@ -128,7 +138,6 @@ doctype_js = {
 #		"on_trash": "method"
 #	}
 # }
-
 # Scheduled Tasks
 # ---------------
 
